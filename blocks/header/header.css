@@ -1,0 +1,8 @@
+.header {
+  flex-grow: 0;
+
+  height: 42px;
+
+  margin-left: var(--root-side-indent);
+  margin-right: var(--root-side-indent);
+}

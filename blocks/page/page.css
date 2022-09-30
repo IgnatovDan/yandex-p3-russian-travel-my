@@ -1,0 +1,13 @@
+.page {
+  /* --root-side-padding: 19px; - exclude width of browser scrollbars */
+
+  min-width: 320px;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--background-color);
+
+  font-family: 'Inter', Arial, sans-serif;
+}
