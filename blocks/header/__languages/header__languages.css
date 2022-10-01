@@ -1,0 +1,12 @@
+.header__languages {
+  display: flex;
+  flex-direction: row;
+  column-gap: 18px;
+
+  text-transform: capitalize;
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
