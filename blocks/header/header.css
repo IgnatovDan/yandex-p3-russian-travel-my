@@ -1,8 +1,13 @@
 .header {
   flex-grow: 0;
 
-  height: 42px;
+  padding-top: var(--root-side-indent);
+  padding-left: var(--root-side-indent);
+  padding-right: var(--root-side-indent);
 
-  margin-left: var(--root-side-indent);
-  margin-right: var(--root-side-indent);
+  /* height depends on content */
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
