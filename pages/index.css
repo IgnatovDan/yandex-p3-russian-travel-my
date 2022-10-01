@@ -3,21 +3,19 @@
 
 @import url(../vendor/variables.css);
 
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__languages/header__languages.css);
+@import url(../blocks/header/__language-item/_active/header__language-item_active.css);
+
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__header/page__header.css);
 @import url(../blocks/page/__title/page__title.css);
 @import url(../blocks/page/__subtitle/page__subtitle.css);
-
+@import url(../blocks/page/__title-image/page__title-image.css);
 /*
 - Placing a block inside another block: https://en.bem.info/methodology/block-modification/#placing-a-block-inside-another-block
 - External geometry and positioning: https://en.bem.info/methodology/css/#external-geometry-and-positioning
 <header class="header"> 
     <div class="logo header__logo"> ...</div> 
 */
-
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__languages/header__languages.css);
-@import url(../blocks/header/__language-item/_active/header__language-item_active.css);
-
-
