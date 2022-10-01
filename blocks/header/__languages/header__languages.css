@@ -1,4 +1,6 @@
 .header__languages {
+  padding-top: 14px;
+
   display: flex;
   flex-direction: row;
   align-items: baseline;

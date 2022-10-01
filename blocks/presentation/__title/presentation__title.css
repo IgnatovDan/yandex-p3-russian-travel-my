@@ -1,8 +1,7 @@
 .presentation__title {
   margin: 0;
-  margin-top: 48px;
-  margin-left: 16px;
-  margin-right: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
 
   font-weight: 900;
   font-size: 40px;
