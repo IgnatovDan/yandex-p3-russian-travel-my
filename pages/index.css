@@ -5,6 +5,8 @@
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/page/__title/page__title.css);
+
 /*
 - Placing a block inside another block: https://en.bem.info/methodology/block-modification/#placing-a-block-inside-another-block
 - External geometry and positioning: https://en.bem.info/methodology/css/#external-geometry-and-positioning

@@ -1,5 +1,11 @@
-.page__header {
-  padding-top: var(--page-side-indent, --page-side-indent-default);
+.page__title {
+  padding-top: 48px;
   padding-left: var(--page-side-indent, --page-side-indent-default);
   padding-right: var(--page-side-indent, --page-side-indent-default);
+  margin: 0;
+
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
 }

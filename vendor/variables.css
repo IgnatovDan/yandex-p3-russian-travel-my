@@ -1,6 +1,5 @@
 :root {
-  --root-background-color: #2A2C2F;
-  --root-color: #FFFFFF;
-  
-  --root-side-indent: 16px;
+  --page-background-color: #2A2C2F;
+  --page-color: #FFFFFF;
+  --page-side-indent: 16px;
 }
