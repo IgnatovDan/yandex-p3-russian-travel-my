@@ -1,9 +1,12 @@
-.page__subtitle {
+.presentation__subtitle {
   margin: 0;
   margin-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
 
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  /* or 125% */
   text-align: center;
 }

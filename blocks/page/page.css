@@ -5,6 +5,8 @@
   --page-background-color-default: #2A2C2F;
   --page-color-default: #FFFFFF;
 
+  --content-side-indent: var(--page-side-indent, --page-side-indent-default);
+
   min-width: 320px;
   min-height: 100vh;
 

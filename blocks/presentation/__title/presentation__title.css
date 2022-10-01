@@ -1,0 +1,12 @@
+.presentation__title {
+  margin: 0;
+  margin-top: 48px;
+  margin-left: 16px;
+  margin-right: 16px;
+
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  /* or 110% */
+  text-align: center;
+}

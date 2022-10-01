@@ -1,0 +1,10 @@
+.presentation__image {
+  display: block;
+  margin-top: 40px;
+  width: 100%;
+  aspect-ratio: 320/200;
+  object-fit: cover;
+
+  position: relative;
+  left: -2px;
+}
