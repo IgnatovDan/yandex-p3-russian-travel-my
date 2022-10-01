@@ -1,6 +1,7 @@
 .header__languages {
   display: flex;
   flex-direction: row;
+  align-items: baseline;
   column-gap: 18px;
 
   text-transform: capitalize;
