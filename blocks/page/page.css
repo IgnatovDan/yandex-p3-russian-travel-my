@@ -1,20 +1,14 @@
 .page {
   /* --root-side-padding: 19px; - exclude width of browser scrollbars */
 
-  --page-side-indent-default: 16px;
-  --page-background-color-default: #2A2C2F;
-  --page-color-default: #FFFFFF;
-
-  --content-side-indent: var(--page-side-indent, --page-side-indent-default);
-
   min-width: 320px;
   min-height: 100vh;
 
   display: flex;
   flex-direction: column;
 
-  background-color: var(--page-background-color, --page-background-color-default);
-  color: var(--page-color, --page-color-default);
+  background-color: #2A2C2F;
+  color: #FFFFFF;
 
   font-family: 'Inter', Arial, sans-serif;
 }

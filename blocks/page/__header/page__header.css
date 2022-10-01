@@ -1,5 +1,5 @@
 .page__header {
-  margin-top: var(--page-side-indent, --page-side-indent-default);
-  margin-left: var(--page-side-indent, --page-side-indent-default);
-  margin-right: var(--page-side-indent, --page-side-indent-default);
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
