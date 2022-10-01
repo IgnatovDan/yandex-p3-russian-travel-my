@@ -1,8 +1,8 @@
 .page__title {
-  padding-top: 48px;
-  padding-left: var(--page-side-indent, --page-side-indent-default);
-  padding-right: var(--page-side-indent, --page-side-indent-default);
   margin: 0;
+  margin-top: 48px;
+  margin-left: var(--page-side-indent, --page-side-indent-default);
+  margin-right: var(--page-side-indent, --page-side-indent-default);
 
   font-weight: 900;
   font-size: 40px;
