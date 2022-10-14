@@ -1,11 +1,22 @@
 .presentation__title {
   margin: 0;
-  padding-left: 16px;
-  padding-right: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
 
   font-weight: 900;
   font-size: 40px;
   line-height: 44px;
   /* or 110% */
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .presentation__title {
+    margin-left: 24px;
+    margin-right: 24px;
+
+    font-size: 96px;
+    line-height: 100px;
+    /* or 104% */
+  }
 }
