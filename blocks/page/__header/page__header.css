@@ -11,3 +11,10 @@
     margin-right: 24px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .page__header {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
