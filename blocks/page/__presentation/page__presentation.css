@@ -1,3 +1,9 @@
 .page__presentation {
   margin-top: 48px;
 }
+
+@media screen and (min-width: 1280px) {
+  .page__presentation {
+    margin-top: 56px;
+  }
+}
