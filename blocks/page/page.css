@@ -3,9 +3,10 @@
 
   min-width: 320px;
   min-height: 100vh;
+  max-width: 1280px;
 
-  display: flex;
-  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
 
   background-color: #2A2C2F;
   color: #FFFFFF;
