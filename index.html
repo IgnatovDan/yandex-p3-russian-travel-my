@@ -26,7 +26,15 @@
       <h1 class="presentation__title">Путешествия по России</h1>
       <p class="presentation__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
 
-      <img class="presentation__image" src="./images/presentation-image.jpg" alt="карта с маршрутом">
+      <img class="presentation__image"
+        src="./images/presentation-image-320.jpg" alt="карта с маршрутом"
+        srcset="
+          ./images/presentation-image-320.jpg 320w, 
+          ./images/presentation-image-768.jpg 768w,
+          ./images/presentation-image-928.jpg 928w,
+          ./images/presentation-image-984.jpg 984w"
+        sizes="100vw"
+      >
       <p class="presentation__slogan">ваша полка — верхняя</p>
     </section>
 
