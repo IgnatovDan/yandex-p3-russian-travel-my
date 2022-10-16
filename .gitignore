@@ -1,0 +1,4 @@
+/node_modules
+/tests-testcafe/_temp-screenshots-comparer
+/tests-testcafe/artifacts
+package-lock.json

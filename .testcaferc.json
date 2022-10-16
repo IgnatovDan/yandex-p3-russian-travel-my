@@ -1,0 +1,13 @@
+{
+  "source-git": "https://github.com/DevExpress/DevExtreme/blob/22_2/.testcaferc.json",
+  "screenshots": {
+    "path": "./",
+    "takeOnFails": true,
+    "pathPattern-help": "https://testcafe.io/documentation/402840/guides/advanced-guides/screenshots-and-videos#path-pattern-placeholders",
+    "pathPattern": "/tests-testcafe/artifacts/failedtests/${TEST}",
+    "fullPage": true
+  },
+  "screenshots-comparer": {
+    "path": "./tests-testcafe/_temp-screenshots-comparer"
+  }
+}
