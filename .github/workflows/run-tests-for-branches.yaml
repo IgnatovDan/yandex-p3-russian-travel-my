@@ -13,10 +13,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Install dependencies
         run: npm i
 
       - name: Run testcafe tests
         run: npm run tests-testcafe-screenshots
+
+      - uses: actions/upload-artifact@v3
+        if: failure()
+        with:
+          name: testcafe-results
+          path: tests-testcafe/_temp-screenshots-comparer/artifacts/compared-screenshots
+          if-no-files-found: ignore
+          retention-days: 1
