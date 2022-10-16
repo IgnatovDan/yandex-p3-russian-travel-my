@@ -1,0 +1,19 @@
+name: Run Tests after each change in any branch
+
+# More details:
+# https://github.com/IgnatovDan/Sandbox/blob/main/.github/workflows/TestGithubActionsForBranches.yml
+
+on: 
+  # Force workflow after each change in any branch
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run testcafe tests
+        run: npm run tests-testcafe-screenshots
