@@ -5,11 +5,6 @@ fixture`Index page screenshot 1280`
 
 test(`test1`, async t => {
   await t.resizeWindow(1280, 800);
-  const screenshotComparerDefault = {
-    looksSameComparisonOptions: {
-      tolerance: 8,
-    }
-  };
 
-  await t.expect(await compareScreenshot(t, 'index-page_1280.png', null, screenshotComparerDefault)).ok();
+  await t.expect(await compareScreenshot(t, 'index-page_1280.png')).ok();
 });
