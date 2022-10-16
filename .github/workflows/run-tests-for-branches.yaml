@@ -15,5 +15,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Install dependencies
+        run: npm i
+
       - name: Run testcafe tests
         run: npm run tests-testcafe-screenshots
