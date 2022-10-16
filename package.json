@@ -8,6 +8,6 @@
     "tests-testcafe-screenshots-768": "npx testcafe \"chrome:emulation:width=768;height=1000;mobile=true;orientation=vertical;touch=true\" tests-testcafe/768/**",
     "tests-testcafe-screenshots-1024": "npx testcafe \"chrome:emulation:width=1024;height=1000;mobile=true;orientation=vertical;touch=true\" tests-testcafe/1024/**",
     "tests-testcafe-screenshots-1280": "npx testcafe \"chrome:emulation:width=1280;height=1000;mobile=true;orientation=vertical;touch=true\" tests-testcafe/1280/**",
-    "tests-testcafe-screenshots": "npm run tests-testcafe-screenshots-320 && npm run tests-testcafe-screenshots-768 && npm run tests-testcafe-screenshots-1024 && npm run tests-testcafe-screenshots-1280"
+    "tests-testcafe-screenshots": "npm run tests-testcafe-screenshots-320 & npm run tests-testcafe-screenshots-768 & npm run tests-testcafe-screenshots-1024 & npm run tests-testcafe-screenshots-1280"
   }
 }
