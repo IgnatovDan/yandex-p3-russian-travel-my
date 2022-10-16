@@ -41,3 +41,8 @@
   - [Execute Visual Regression Tests in TestCafe](https://www.browserstack.com/guide/visual-regression-in-testcafe)
   - [devextreme-screenshot-comparer](https://www.npmjs.com/package/devextreme-screenshot-comparer)
   - [Visual regression testing #1207](https://github.com/DevExpress/testcafe/issues/1207)
+
+- TODO: try [Storybook](https://storybook.js.org/docs/react/writing-tests/visual-testing), [StoryShots + Puppeteer](https://github.com/storybookjs/storybook/tree/main/addons/storyshots/storyshots-puppeteer#imagesnapshots)
+- TODO: try [happo.io](https://github.com/happo/happo.io), [Happo docs: Storybook](https://docs.happo.io/docs/storybook)
+- TODO: try [Resemble.js](https://github.com/rsmbl/Resemble.js)
+- TODO: try [pixelmatch](https://github.com/mapbox/pixelmatch)
