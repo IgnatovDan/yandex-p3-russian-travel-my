@@ -1,4 +1,4 @@
-name: Run Tests after each change in any branch
+name: Screenshot tests
 
 # More details:
 # https://github.com/IgnatovDan/Sandbox/blob/main/.github/workflows/TestGithubActionsForBranches.yml
