@@ -1,3 +1,5 @@
+[![Screenshot tests](https://github.com/IgnatovDan/yandex-p3-russian-travel-my/actions/workflows/run-screenshot-tests.yaml/badge.svg)](https://github.com/IgnatovDan/yandex-p3-russian-travel-my/actions/workflows/run-screenshot-tests.yaml)
+
 # Project: Roundtrip to Russia
 
 ### Overview
