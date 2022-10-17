@@ -1,4 +1,4 @@
-.header__languages {
+.header__lang-links {
   padding-top: 14px;
 
   display: flex;
@@ -15,7 +15,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header__languages {
+  .header__lang-links {
     padding-top: 20px;
 
     font-size: 24px;
