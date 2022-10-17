@@ -5,9 +5,9 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__languages/header__languages.css);
-@import url(../blocks/header/__language/header__language.css);
-@import url(../blocks/header/__language/_active/header__language_active.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 /*
 - Placing a block inside another block: https://en.bem.info/methodology/block-modification/#placing-a-block-inside-another-block
@@ -17,10 +17,10 @@
 */
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__header/page__header.css);
-@import url(../blocks/page/__presentation/page__presentation.css);
+@import url(../blocks/page/__lead/page__lead.css);
 
-@import url(../blocks/presentation/presentation.css);
-@import url(../blocks/presentation/__title/presentation__title.css);
-@import url(../blocks/presentation/__subtitle/presentation__subtitle.css);
-@import url(../blocks/presentation/__image/presentation__image.css);
-@import url(../blocks/presentation/__slogan/presentation__slogan.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);

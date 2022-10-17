@@ -1,9 +1,9 @@
-.page__presentation {
+.page__lead {
   margin-top: 48px;
 }
 
 @media screen and (min-width: 1280px) {
-  .page__presentation {
+  .page__lead {
     margin-top: 56px;
   }
 }

@@ -1,4 +1,4 @@
-.presentation__image {
+.lead__image {
   display: block;
   margin-top: 40px;
   width: 100%;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .presentation__image {
+  .lead__image {
     margin-top: 56px;
     left: auto;
     margin-left: auto;
@@ -19,13 +19,13 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .presentation__image {
+  .lead__image {
     max-width: 928px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .presentation__image {
+  .lead__image {
     margin-top: 64px;
     max-width: 984px;
   }
