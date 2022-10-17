@@ -1,6 +1,4 @@
 .page {
-  /* --root-side-padding: 19px; - exclude width of browser scrollbars */
-
   min-width: 320px;
   min-height: 100vh;
   max-width: 1280px;

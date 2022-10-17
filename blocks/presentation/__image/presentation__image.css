@@ -10,12 +10,23 @@
 }
 
 @media screen and (min-width: 768px) {
-  .presentation__title {
-    margin-left: 64px;
-    margin-right: 64px;
+  .presentation__image {
+    margin-top: 56px;
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
-    font-size: 30px;
-    line-height: 36px;
-    /* or 120% */
+@media screen and (min-width: 1024px) {
+  .presentation__image {
+    max-width: 928px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .presentation__image {
+    margin-top: 64px;
+    max-width: 984px;
   }
 }
