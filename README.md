@@ -1,27 +1,12 @@
-# Проект: Путешествие по России
+[![Screenshot tests](https://github.com/IgnatovDan/yandex-p3-russian-travel-my/actions/workflows/run-screenshot-tests.yaml/badge.svg)](https://github.com/IgnatovDan/yandex-p3-russian-travel-my/actions/workflows/run-screenshot-tests.yaml)
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+# Project: Roundtrip to Russia
 
-**Интро**
+### Overview
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
-
-**Figma**
-
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
-
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
-
+* TODO: publish onto gh-pages
+* In this project, I used HTML, CSS, img/srcset, CI (Testcafe, headless chrome, Github action/workflow on PR from branches)
+* Source Figma design: https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0
 
 ## Links:
 
@@ -46,3 +31,4 @@
 - TODO: try [happo.io](https://github.com/happo/happo.io), [Happo docs: Storybook](https://docs.happo.io/docs/storybook)
 - TODO: try [Resemble.js](https://github.com/rsmbl/Resemble.js)
 - TODO: try [pixelmatch](https://github.com/mapbox/pixelmatch)
+- TODO: try [hermione](https://github.com/gemini-testing/hermione) + [looks-same](https://github.com/gemini-testing/looks-same)

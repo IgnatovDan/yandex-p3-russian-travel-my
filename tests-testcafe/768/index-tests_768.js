@@ -1,6 +1,6 @@
 import { compareScreenshot } from 'devextreme-screenshot-comparer';
 
-fixture`Index page screenshot`
+fixture`Index page screenshot 768`
   .page('../../index.html');
 
 test(`test1`, async t => {
