@@ -9,7 +9,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  screenshot_tests:
+    name: Screenshot tests
     runs-on: ubuntu-latest
 
     steps:
