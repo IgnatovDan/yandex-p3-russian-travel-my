@@ -4,7 +4,7 @@
 
 ### Overview
 
-* In this project, I used HTML, CSS, img/srcset, Github action/workflow, Testcafe, headless chrome
+* In this project, I used HTML, CSS, img/srcset, CI (Testcafe, headless chrome, Github action/workflow on PR from branches)
 * Source Figma design: https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0
 
 ## Links:
