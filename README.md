@@ -33,3 +33,4 @@
 - TODO: try [Resemble.js](https://github.com/rsmbl/Resemble.js)
 - TODO: try [pixelmatch](https://github.com/mapbox/pixelmatch)
 - TODO: try [hermione](https://github.com/gemini-testing/hermione) + [looks-same](https://github.com/gemini-testing/looks-same)
+- TODO: Add &nbsp; in texts
