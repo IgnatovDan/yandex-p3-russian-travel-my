@@ -4,6 +4,6 @@ fixture`Index page screenshot 900`
   .page('../../index.html');
 
 test(`Index page screenshot test 900`, async t => {
-  await t.resizeWindow(900, 800);
+  await t.resizeWindow(900, 1000);
   await t.expect(await compareScreenshot(t, 'index-page_900.png')).ok();
 });
