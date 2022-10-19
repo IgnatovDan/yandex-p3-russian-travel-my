@@ -29,3 +29,11 @@ jobs:
           path: tests-testcafe/_temp-screenshots-comparer/artifacts/compared-screenshots
           if-no-files-found: ignore
           retention-days: 1
+
+      - uses: actions/upload-artifact@v3
+        if: failure()
+        with:
+          name: result-build
+          path: ./
+          if-no-files-found: ignore
+          retention-days: 1
