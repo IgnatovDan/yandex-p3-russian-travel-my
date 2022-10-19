@@ -20,9 +20,3 @@ test(`Lead screenshot test 320`, async t => {
   const element = Selector('.lead');
   await t.expect(await compareScreenshot(t, 'lead_320.png', element)).ok();
 });
-
-test(`Intro screenshot test 320`, async t => {
-  await t.resizeWindow(320, 1000);
-  const element = Selector('.intro');
-  await t.expect(await compareScreenshot(t, 'intro_320.png', element)).ok();
-});
