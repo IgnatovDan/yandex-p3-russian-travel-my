@@ -8,3 +8,21 @@ test(`Index page screenshot test 1280`, async t => {
 
   await t.expect(await compareScreenshot(t, 'index-page_1280.png')).ok();
 });
+
+test(`Header screenshot test 1280`, async t => {
+  await t.resizeWindow(1280, 1000);
+  const element = Selector('.header');
+  await t.expect(await compareScreenshot(t, 'header_1280.png', element)).ok();
+});
+
+test(`Lead screenshot test 1280`, async t => {
+  await t.resizeWindow(1280, 1000);
+  const element = Selector('.lead');
+  await t.expect(await compareScreenshot(t, 'lead_1280.png', element)).ok();
+});
+
+test(`Intro screenshot test 1280`, async t => {
+  await t.resizeWindow(1280, 1000);
+  const element = Selector('.intro');
+  await t.expect(await compareScreenshot(t, 'intro_1280.png', element)).ok();
+});
