@@ -1,3 +1,4 @@
+import { Selector } from 'testcafe';
 import { compareScreenshot } from 'devextreme-screenshot-comparer';
 
 fixture`Index page screenshot 1280`
