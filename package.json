@@ -12,6 +12,6 @@
     "tests-testcafe-screenshots-1080": "npx testcafe \"chrome:headless:emulation:width=1080;height=1440;mobile=true;orientation=vertical\" tests-testcafe/1080/**",
     "tests-testcafe-screenshots-1280": "npx testcafe \"chrome:headless:emulation:width=1280;height=1440;mobile=true;orientation=vertical\" tests-testcafe/1280/**",
     "tests-testcafe-screenshots-1440": "npx testcafe \"chrome:headless:emulation:width=1440;height=1600;mobile=true;orientation=vertical\" tests-testcafe/1440/**",
-    "tests-testcafe-screenshots": "npm run tests-testcafe-screenshots-320"
+    "tests-testcafe-screenshots": "npm run tests-testcafe-screenshots-320 & npm run tests-testcafe-screenshots-480 & npm run tests-testcafe-screenshots-768 & npm run tests-testcafe-screenshots-900 & npm run tests-testcafe-screenshots-1024 & npm run tests-testcafe-screenshots-1080 & npm run tests-testcafe-screenshots-1280 & npm run tests-testcafe-screenshots-1440"
   }
 }
