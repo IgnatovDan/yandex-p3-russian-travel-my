@@ -1,7 +1,9 @@
 .place__image {
   margin-top: 32px;
 
+  display: block;
   width: 100%;
+  aspect-ratio: 1/1;
   object-fit: contain;
   object-position: center;
 }
