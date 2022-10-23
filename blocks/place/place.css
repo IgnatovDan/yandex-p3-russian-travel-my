@@ -3,6 +3,7 @@
   grid-template-columns: 1fr;
   row-gap: 32px;
 
+  /* Used in place__image to fit 100% of the block width */
   padding: 0 16px;
 }
 
