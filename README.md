@@ -30,7 +30,6 @@
 
 - Обработка текста, неразрывные пробелы: https://www.artlebedev.ru/typograf/
 
-- TODO: set max-width for text elements and show ellipsis if text is too large (things like captions/links/...)
 - TODO: try [Storybook](https://storybook.js.org/docs/react/writing-tests/visual-testing), [StoryShots + Puppeteer](https://github.com/storybookjs/storybook/tree/main/addons/storyshots/storyshots-puppeteer#imagesnapshots)
 - TODO: try [happo.io](https://github.com/happo/happo.io), [Happo docs: Storybook](https://docs.happo.io/docs/storybook)
 - TODO: try [Resemble.js](https://github.com/rsmbl/Resemble.js)
