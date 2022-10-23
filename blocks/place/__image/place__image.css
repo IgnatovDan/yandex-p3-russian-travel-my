@@ -1,0 +1,17 @@
+.place__image {
+  /* Use 16ps paddings of the parent block to fit 100% of the block width */
+  margin: 0 -16px;
+  width: calc(100% + 32px);
+
+  display: block;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  .place__image {
+    margin: 0;
+    width: 100%;
+  }
+}

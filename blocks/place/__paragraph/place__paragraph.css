@@ -1,0 +1,16 @@
+.place__paragraph {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  /* or 26px */
+}
+
+@media screen and (min-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+    /* line-height: 163%; - incorrect value in figma */
+    line-height: 29px;
+  }
+}
