@@ -2,11 +2,14 @@
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 32px;
+
+  padding: 0 16px;
 }
 
 @media screen and (min-width: 768px) {
   .place {
-    display: grid;
+    padding: 0;
+
     grid-template-rows: 92px auto;
     grid-template-columns: 47% auto;
     row-gap: 48px;

@@ -1,7 +1,16 @@
 .place__image {
+  margin: 0 -16px;
+  width: calc(100% + 32px);
+
   display: block;
-  width: 100%;
   aspect-ratio: 1/1;
   object-fit: contain;
   object-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  .place__image {
+    margin: 0;
+    width: 100%;
+  }
 }
