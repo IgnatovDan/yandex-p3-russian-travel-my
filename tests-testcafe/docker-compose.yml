@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: dockerfile
     container_name: travel1
-    command: sh -c "cat /etc/os-release && google-chrome --version && npm -v && npm i && npm run tests-testcafe-screenshots-320"
+    command: sh -c "cat /etc/os-release && google-chrome --version && npm -v && npm i && npm run tests-testcafe-screenshots"
     working_dir: /myapp
     volumes:
       - ../:/myapp
