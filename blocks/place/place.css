@@ -10,7 +10,6 @@
   .place {
     padding: 0;
 
-    grid-template-rows: 92px auto;
     grid-template-columns: 47% auto;
     row-gap: 48px;
     column-gap: 28px;
