@@ -1,7 +1,13 @@
 .place__description {
-  margin: 32px 16px 0;
+  margin: 0 16px 0;
 
   display: flex;
   flex-direction: column;
   gap: 25px;
+}
+
+@media screen and (min-width: 1024px) {
+  .place__description {
+    gap: 26px;
+  }
 }
