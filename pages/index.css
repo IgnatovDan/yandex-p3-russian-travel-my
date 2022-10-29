@@ -16,6 +16,7 @@
     <div class="logo header__logo"> ...</div> 
 */
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__content/page__content.css);
 @import url(../blocks/page/__header/page__header.css);
 @import url(../blocks/page/__lead/page__lead.css);
 @import url(../blocks/page/__intro/page__intro.css);
