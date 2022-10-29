@@ -3,3 +3,4 @@
 /tests-testcafe/artifacts
 /temp
 package-lock.json
+build-storybook.log
