@@ -22,4 +22,5 @@
 - [UI Component Playbook blog post at chromatic.com/blog](https://www.chromatic.com/blog/ui-component-playbook/)
 
 ### Other links:
-- https://varya.me/blog/stories-with-different-viewports/
+- [Generic Storybook stories with different viewports blog post](https://varya.me/blog/stories-with-different-viewports/)
+- [How to Use Storybook for HTML Projects blog post](https://javascript.plainenglish.io/storybook-for-html-projects-1e99aa452a44)
