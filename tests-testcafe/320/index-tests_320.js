@@ -38,3 +38,5 @@ test.page`../section-pages/places.html`(`Places screenshot test 320`, async t =>
   const element = Selector('.places');
   await t.expect(await compareScreenshot(t, 'places_320.png', element)).ok();
 });
+
+// TODO: add similar tests for other resolutions
