@@ -2,7 +2,7 @@
 - run 'npm run storybook'
 
 ### Manually run screenshot tests on 'chromatic.com' and review diffs from the 'baseline':
-- run 'yarn chromatic --project-token=<project token from chromatic.com>' or 'npx chromatic --project-token=0a6bffb8bffa' (but sometimes it hangs up at the 'publishing - 100%' in my environment)
+- run 'yarn chromatic --project-token=\<project token from chromatic.com\>' or 'npx chromatic --project-token=\<project token from chromatic.com\>' (but sometimes it hangs up at the 'publishing - 100%' in my environment)
   'chromatic' requires the 'build-storybook' script
 - Open the <project token> project at chromatic.com to review screenshots are stored at 
 
