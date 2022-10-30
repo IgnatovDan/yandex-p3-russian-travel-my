@@ -1,6 +1,8 @@
 .page {
   min-width: 320px;
   min-height: 100vh;
+  /* avoid vertical scrollbar for nearly empty page: include paddings into height */
+  box-sizing: border-box;
   width: 100%;
 
   /* disable passing top/bottom margins from child elements to parent */
