@@ -1,5 +1,8 @@
 name: 'Chromatic tests'
 
+# More details:
+# https://www.chromatic.com/docs/github-actions
+
 on: push
 
 jobs:
