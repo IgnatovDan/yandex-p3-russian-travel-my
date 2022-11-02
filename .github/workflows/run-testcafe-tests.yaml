@@ -1,4 +1,4 @@
-name: Screenshot tests
+name: Testcafe tests
 
 # More details:
 # https://github.com/IgnatovDan/Sandbox/blob/main/.github/workflows/TestGithubActionsForBranches.yml
@@ -10,7 +10,7 @@ on:
 
 jobs:
   screenshot_tests:
-    name: Screenshot tests
+    name: Testcafe screenshot tests
     runs-on: ubuntu-latest
 
     steps:
@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: npm i
 
-      - name: Run testcafe tests
+      - name: Run testcafe screenshot tests
         run: npm run tests-testcafe-screenshots
 
       - uses: actions/upload-artifact@v3
