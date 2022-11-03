@@ -1,5 +1,5 @@
 export default {
-  title: 'Header',
+  title: 'Page',
 }
 
 const Template = () => {
