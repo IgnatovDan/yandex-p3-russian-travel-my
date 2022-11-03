@@ -20,3 +20,8 @@ test(`Lead screenshot test 480`, async t => {
   const element = Selector('.lead');
   await t.expect(await compareScreenshot(t, 'lead_480.png', element)).ok();
 });
+
+test.page`../section-pages/cover.html`(`Cover screenshot test 480`, async t => {
+  await t.resizeWindow(480, 1000);
+  await t.expect(await compareScreenshot(t, 'cover_480.png')).ok();
+});

@@ -39,4 +39,10 @@ test.page`../section-pages/places.html`(`Places screenshot test 320`, async t =>
   await t.expect(await compareScreenshot(t, 'places_320.png', element)).ok();
 });
 
+test.page`../section-pages/cover.html`(`Cover screenshot test 320`, async t => {
+  await t.resizeWindow(320, 1000);
+  await t.expect(await compareScreenshot(t, 'cover_320.png')).ok();
+});
+
 // TODO: add similar tests for other resolutions
+// TODO: test entire page with all spaces instead of internals of a block

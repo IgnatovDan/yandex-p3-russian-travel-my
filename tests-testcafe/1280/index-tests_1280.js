@@ -15,3 +15,8 @@ test(`Header screenshot test 1280`, async t => {
   const element = Selector('.header');
   await t.expect(await compareScreenshot(t, 'header_1280.png', element)).ok();
 });
+
+test.page`../section-pages/cover.html`(`Cover screenshot test 1280`, async t => {
+  await t.resizeWindow(1280, 1000);
+  await t.expect(await compareScreenshot(t, 'cover_1280.png')).ok();
+});
