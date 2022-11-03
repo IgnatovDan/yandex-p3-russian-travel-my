@@ -22,6 +22,7 @@
 @import url(../blocks/page/__intro/page__intro.css);
 @import url(../blocks/page/__photo-grid/page__photo-grid.css);
 @import url(../blocks/page/__places/page__places.css);
+@import url(../blocks/page/__cover/page__cover.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -50,3 +51,6 @@
 @import url(../blocks/place/__description/place__description.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/cover__title.css);
+@import url(../blocks/cover/cover__subtitle.css);
