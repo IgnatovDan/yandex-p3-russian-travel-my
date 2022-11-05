@@ -8,12 +8,12 @@
   flex-direction: column;
   flex-wrap: wrap;
 
-  gap: 32px;
+  gap: 32px 0;
 }
 
 @media screen and (min-width: 768px) {
   .footer__links {
     flex-direction: row;
-    gap: 19px; 
+    gap: 0 19px;
   }
 }

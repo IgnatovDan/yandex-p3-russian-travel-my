@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 48px 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -9,6 +9,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    gap: 48px;
+    gap: 0 48px;
   }
 }
