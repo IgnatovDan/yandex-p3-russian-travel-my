@@ -1,0 +1,22 @@
+.footer__author {
+  margin: 0;
+
+  text-align: start;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+}
+
+@media screen and (min-width: 768px) {
+  .footer__author {
+    text-align: end;
+    flex-grow: 0;
+    flex-basis: 200px;
+  }
+}

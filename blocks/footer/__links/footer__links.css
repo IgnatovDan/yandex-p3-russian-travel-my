@@ -1,0 +1,19 @@
+.footer__links {
+  /* reset ul styles */
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  gap: 32px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__links {
+    flex-direction: row;
+    gap: 0 19px;
+  }
+}
