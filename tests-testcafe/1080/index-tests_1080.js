@@ -40,6 +40,6 @@ test.page`../section-pages/cover.html`(`Cover screenshot test 1080`, async t => 
 });
 
 test.page`../section-pages/footer.html`(`Footer screenshot test 1080`, async t => {
-  await t.resizeWindow(1080, 1000);
+  await t.resizeWindow(1080, 100);
   await t.expect(await compareScreenshot(t, 'footer_1080.png')).ok();
 });
