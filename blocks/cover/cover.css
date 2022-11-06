@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
 
+  /* TODO: add images for different page width */
   background-image: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url(../../images/cover__background.jpg);
   background-position: center;
   background-size: cover;
