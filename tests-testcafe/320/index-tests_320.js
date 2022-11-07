@@ -36,7 +36,7 @@ test.page`../section-pages/places.html`(`Places screenshot test 320`, async t =>
 
 test.page`../section-pages/places.html`(`Places_hover screenshot test 320`, async t => {
   await t.resizeWindow(320, 100);
-  await t.hover('.place__website-link').wait(100);
+  await t.hover('.place__website-link').wait(1000);
   await t.expect(await compareScreenshot(t, 'places_hover_320.png')).ok();
 });
 
@@ -47,7 +47,7 @@ test.page`../section-pages/cover.html`(`Cover screenshot test 320`, async t => {
 
 test.page`../section-pages/cover.html`(`Cover_hover screenshot test 320`, async t => {
   await t.resizeWindow(320, 100);
-  await t.hover('.cover').wait(100);
+  await t.hover('.cover').wait(1000);
   await t.expect(await compareScreenshot(t, 'cover_hover_320.png')).ok();
 });
 
