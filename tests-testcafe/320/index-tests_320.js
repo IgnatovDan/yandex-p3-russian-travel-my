@@ -34,12 +34,30 @@ test.page`../section-pages/places.html`(`Places screenshot test 320`, async t =>
   await t.expect(await compareScreenshot(t, 'places_320.png')).ok();
 });
 
+test.page`../section-pages/places.html`(`Places_hover screenshot test 320`, async t => {
+  await t.resizeWindow(320, 100);
+  await t.hover('.place__website-link').wait(100);
+  await t.expect(await compareScreenshot(t, 'places_hover_320.png')).ok();
+});
+
 test.page`../section-pages/cover.html`(`Cover screenshot test 320`, async t => {
   await t.resizeWindow(320, 1000);
   await t.expect(await compareScreenshot(t, 'cover_320.png')).ok();
 });
 
+test.page`../section-pages/cover.html`(`Cover_hover screenshot test 320`, async t => {
+  await t.resizeWindow(320, 100);
+  await t.hover('.cover').wait(100);
+  await t.expect(await compareScreenshot(t, 'cover_hover_320.png')).ok();
+});
+
 test.page`../section-pages/footer.html`(`Footer screenshot test 320`, async t => {
   await t.resizeWindow(320, 100);
   await t.expect(await compareScreenshot(t, 'footer_320.png')).ok();
+});
+
+test.page`../section-pages/footer.html`(`Footer screenshot test 320`, async t => {
+  await t.resizeWindow(320, 100);
+  await t.hover('.footer__link .link').wait(1000);
+  await t.expect(await compareScreenshot(t, 'footer_hover_320.png')).ok();
 });
