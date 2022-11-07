@@ -123,10 +123,10 @@ const Template = () => {
                 <div class="place__website">
                   <p class="place__website-heading">URL</p>
                   <!-- TODO: change to <a> -->
-                  <p class="place__website-link">park-kosa.ru</p>
+                  <a class="place__website-link" href="park-kosa.ru">park-kosa.ru</a>
                 </div>
 
-                <img class="place__image" src="images\places\place__park-kosa.jpg"
+                <img class="place__image" src="./images/places/place__park-kosa.jpg"
                   alt="Куршская коса">
                 <div class="place__description">
                   <p class="place__paragraph">
@@ -154,10 +154,10 @@ const Template = () => {
                 <h2 class="place__title">Кольский</h2>
                 <div class="place__website">
                   <p class="place__website-heading">URL</p>
-                  <p class="place__website-link">National Geographic</p>
+                  <a class="place__website-link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
                 </div>
 
-                <img class="place__image" src="images\places\place__kolski.jpg" alt="Кольский">
+                <img class="place__image" src="./images/places/place__kolski.jpg" alt="Кольский">
                 <div class="place__description">
                   <p class="place__paragraph">
                     Почти весь полуостров находится за&nbsp;Полярным кругом. Саамская тундра,
@@ -185,10 +185,10 @@ const Template = () => {
                 <h2 class="place__title">Алтай</h2>
                 <div class="place__website">
                   <p class="place__website-heading">URL</p>
-                  <p class="place__website-link">Facebook</p>
+                  <a class="place__website-link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
                 </div>
 
-                <img class="place__image" src="images\places\place__altai.jpg" alt="Кольский">
+                <img class="place__image" src="./images/places/place__altai.jpg" alt="Кольский">
                 <div class="place__description">
                   <p class="place__paragraph">
                     Алтай&nbsp;&mdash; одно из&nbsp;красивейших мест в&nbsp;России.
@@ -212,10 +212,10 @@ const Template = () => {
                 <h2 class="place__title">Зимний Байкал</h2>
                 <div class="place__website">
                   <p class="place__website-heading">URL</p>
-                  <p class="place__website-link">https://vk.com/baikalmile</p>
+                  <a class="place__website-link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
                 </div>
 
-                <img class="place__image" src="images\places\place__baikal.jpg" alt="Кольский">
+                <img class="place__image" src="./images/places/place__baikal.jpg" alt="Кольский">
                 <div class="place__description">
                   <p class="place__paragraph">
                     Всем известен Байкал как крупнейшее озеро
@@ -237,10 +237,10 @@ const Template = () => {
                 <h2 class="place__title">Карелия</h2>
                 <div class="place__website">
                   <p class="place__website-heading">URL</p>
-                  <p class="place__website-link">http://vodlozero.ru/</p>
+                  <a class="place__website-link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
                 </div>
 
-                <img class="place__image" src="images\places\place__karelia.jpg" alt="Кольский">
+                <img class="place__image" src="./images/places/place__karelia.jpg" alt="Кольский">
                 <div class="place__description">
                   <p class="place__paragraph">
                     Сибирь заканчивается не&nbsp;на&nbsp;Урале, а&nbsp;в&nbsp;Карелии: образующая
@@ -263,11 +263,37 @@ const Template = () => {
           </ul>
         </section>
 
-        <section class="page__cover cover">
-          <p class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</p>
-          <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash; путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
+        <section class="page__cover">
+          <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+            <p class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</p>
+            <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash;
+              путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
+          </a>
         </section>
       </main>
+
+      <footer class="page__footer footer">
+        <nav>
+          <ul class="footer__links">
+            <li class="footer__link">
+              <a class="link" href="https://yandex.ru/maps">Карты</a>
+            </li>
+            <li class="footer__link">
+              <a class="link" href="https://yandex.ru/pogoda">Погода</a>
+            </li>
+            <li class="footer__link">
+              <a class="link" href="https://rasp.yandex.ru">Расписание</a>
+            </li>
+            <li class="footer__link">
+              <a class="link" href="https://calendar.yandex.ru">Календарь</a>
+            </li>
+            <li class="footer__link">
+              <a class="link" href="https://travel.yandex.ru">Путешествия</a>
+            </li>
+          </ul>
+        </nav>
+        <p class="footer__author">© 2022. Dan Ignatov</p>
+      </footer>
     </div>
   `;
 

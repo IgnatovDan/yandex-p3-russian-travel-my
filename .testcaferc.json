@@ -4,7 +4,7 @@
     "path": "./",
     "takeOnFails": true,
     "pathPattern-help": "https://testcafe.io/documentation/402840/guides/advanced-guides/screenshots-and-videos#path-pattern-placeholders",
-    "pathPattern": "/tests-testcafe/artifacts/failedtests/${TEST}",
+    "pathPattern": "/tests-testcafe/_temp-screenshots-comparer/${TEST}",
     "fullPage": true
   },
   "screenshots-comparer": {

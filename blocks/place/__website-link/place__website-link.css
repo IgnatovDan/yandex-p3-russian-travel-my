@@ -10,4 +10,10 @@
   text-underline-offset: 4px;
 
   color: #FFFFFF;
+
+  transition: opacity linear 0.2s;
+}
+
+.place__website-link:hover {
+  opacity: 0.8;
 }
