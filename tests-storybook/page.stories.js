@@ -126,7 +126,7 @@ const Template = () => {
                   <a class="place__website-link" href="park-kosa.ru">park-kosa.ru</a>
                 </div>
 
-                <img class="place__image" src="images\places\place__park-kosa.jpg"
+                <img class="place__image" src="./images/places/place__park-kosa.jpg"
                   alt="Куршская коса">
                 <div class="place__description">
                   <p class="place__paragraph">
@@ -157,7 +157,7 @@ const Template = () => {
                   <a class="place__website-link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
                 </div>
 
-                <img class="place__image" src="images\places\place__kolski.jpg" alt="Кольский">
+                <img class="place__image" src="./images/places/place__kolski.jpg" alt="Кольский">
                 <div class="place__description">
                   <p class="place__paragraph">
                     Почти весь полуостров находится за&nbsp;Полярным кругом. Саамская тундра,
@@ -188,7 +188,7 @@ const Template = () => {
                   <a class="place__website-link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
                 </div>
 
-                <img class="place__image" src="images\places\place__altai.jpg" alt="Кольский">
+                <img class="place__image" src="./images/places/place__altai.jpg" alt="Кольский">
                 <div class="place__description">
                   <p class="place__paragraph">
                     Алтай&nbsp;&mdash; одно из&nbsp;красивейших мест в&nbsp;России.
@@ -215,7 +215,7 @@ const Template = () => {
                   <a class="place__website-link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
                 </div>
 
-                <img class="place__image" src="images\places\place__baikal.jpg" alt="Кольский">
+                <img class="place__image" src="./images/places/place__baikal.jpg" alt="Кольский">
                 <div class="place__description">
                   <p class="place__paragraph">
                     Всем известен Байкал как крупнейшее озеро
@@ -240,7 +240,7 @@ const Template = () => {
                   <a class="place__website-link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
                 </div>
 
-                <img class="place__image" src="images\places\place__karelia.jpg" alt="Кольский">
+                <img class="place__image" src="./images/places/place__karelia.jpg" alt="Кольский">
                 <div class="place__description">
                   <p class="place__paragraph">
                     Сибирь заканчивается не&nbsp;на&nbsp;Урале, а&nbsp;в&nbsp;Карелии: образующая
