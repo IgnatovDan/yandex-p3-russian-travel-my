@@ -46,6 +46,6 @@ test.page`../section-pages/footer.html`(`Footer screenshot test 320`, async t =>
 });
 
 test.page`../section-pages/footer.html`(`Footer_hover screenshot test 320`, async t => {
-  await t.hover('.footer__link .link').wait(1000);
+  await t.hover('.footer__link').wait(1000);
   await t.expect(await compareScreenshot(t, 'footer_hover_320.png')).ok();
 });
