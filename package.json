@@ -11,6 +11,7 @@
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.2.5",
     "chromatic": "^6.11.2",
+    "concurrently": "^7.5.0",
     "devextreme-screenshot-comparer": "^2.0.13",
     "testcafe": "^2.0.1"
   },
@@ -23,10 +24,8 @@
     "tests-testcafe-screenshots-1080": "npx testcafe \"chrome:headless:emulation:width=1080;height=100;mobile=true;orientation=vertical\" tests-testcafe/1080/**",
     "tests-testcafe-screenshots-1280": "npx testcafe \"chrome:headless:emulation:width=1280;height=100;mobile=true;orientation=vertical\" tests-testcafe/1280/**",
     "tests-testcafe-screenshots-1440": "npx testcafe \"chrome:headless:emulation:width=1440;height=100;mobile=true;orientation=vertical\" tests-testcafe/1440/**",
-    "tests-testcafe-screenshots": "npm run tests-testcafe-screenshots-320 && npm run tests-testcafe-screenshots-480 && npm run tests-testcafe-screenshots-768 && npm run tests-testcafe-screenshots-900 && npm run tests-testcafe-screenshots-1024 && npm run tests-testcafe-screenshots-1080 && npm run tests-testcafe-screenshots-1280 && npm run tests-testcafe-screenshots-1440",
-    "tests-testcafe-screenshots_local": "npm run tests-testcafe-screenshots-320 & npm run tests-testcafe-screenshots-480 & npm run tests-testcafe-screenshots-768 & npm run tests-testcafe-screenshots-900 & npm run tests-testcafe-screenshots-1024 & npm run tests-testcafe-screenshots-1080 & npm run tests-testcafe-screenshots-1280 & npm run tests-testcafe-screenshots-1440 && wait && echo 'finished wait, no exit codes'",
+    "tests-testcafe-screenshots": "concurrently \"npm:tests-testcafe-screenshots-*\"",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
-  },
-  "dependencies": {}
+  }
 }
