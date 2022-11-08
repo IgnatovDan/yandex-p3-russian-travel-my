@@ -12,20 +12,20 @@ const Template = () => {
       <footer class="page__footer footer">
         <nav>
           <ul class="footer__links">
-            <li class="footer__link">
-              <a class="link" href="https://yandex.ru/maps">Карты</a>
+            <li class="footer__links-item">
+              <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
             </li>
-            <li class="footer__link">
-              <a class="link" href="https://yandex.ru/pogoda">Погода</a>
+            <li class="footer__links-item">
+              <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
             </li>
-            <li class="footer__link">
-              <a class="link" href="https://rasp.yandex.ru">Расписание</a>
+            <li class="footer__links-item">
+              <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
             </li>
-            <li class="footer__link">
-              <a class="link" href="https://calendar.yandex.ru">Календарь</a>
+            <li class="footer__links-item">
+              <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
             </li>
-            <li class="footer__link">
-              <a class="link" href="https://travel.yandex.ru">Путешествия</a>
+            <li class="footer__links-item">
+              <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
             </li>
           </ul>
         </nav>
@@ -45,17 +45,17 @@ const TemplateLongTexts = () => {
       <footer class="page__footer footer">
         <nav>
           <ul class="footer__links">
-            <li class="footer__link">
-              <a class="link" href="https://yandex.ru/maps">Карты Карты Карты Карты Карты Карты Карты Карты</a>
+            <li class="footer__links-item">
+              <a class="footer__link" href="https://yandex.ru/maps">Карты Карты Карты Карты Карты Карты Карты Карты</a>
             </li>
-            <li class="footer__link">
-              <a class="link" href="https://yandex.ru/pogoda">Погода</a>
+            <li class="footer__links-item">
+              <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
             </li>
-            <li class="footer__link">
-              <a class="link" href="https://rasp.yandex.ru">Расписание Расписание Расписание</a>
+            <li class="footer__links-item">
+              <a class="footer__link" href="https://rasp.yandex.ru">Расписание Расписание Расписание</a>
             </li>
-            <li class="footer__link">
-              <a class="link" href="https://calendar.yandex.ru">Календарь</a>
+            <li class="footer__links-item">
+              <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
             </li>
           </ul>
         </nav>

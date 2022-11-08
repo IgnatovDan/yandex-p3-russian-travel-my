@@ -2,7 +2,7 @@
   width: 142px;
   height: 42px;
 
-  background-image: url(../../../images/logo-142.svg);
+  background-image: url(../../../images/logo/logo-142.svg);
 }
 
 @media screen and (min-width: 768px) {
@@ -10,6 +10,6 @@
     width: 176px;
     height: 52px;
 
-    background-image: url(../../../images/logo-176.svg);
+    background-image: url(../../../images/logo/logo-176.svg);
   }
 }

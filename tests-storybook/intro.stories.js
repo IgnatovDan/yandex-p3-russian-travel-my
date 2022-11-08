@@ -30,21 +30,19 @@ const Template = () => {
           </p>
           <ul class="intro__list">
             <li>
-              <p class="intro__list-item">
-                Часовых поясов&nbsp;<span class="intro__list-item-value">11</span>
-              </p>
+              <p class="intro__list-item">Часовых поясов&nbsp;<span class="intro__list-item-value">11</span></p>
             </li>
             <li>
-              <p class="intro__list-item">Объектов природного наследия ЮНЕСКО&nbsp;12</p>
+              <p class="intro__list-item">Объектов природного наследия ЮНЕСКО&nbsp;<span class="intro__list-item-value">12</span></p>
             </li>
             <li>
-              <p class="intro__list-item">Объектов культурного наследия ЮНЕСКО&nbsp;16</p>
+              <p class="intro__list-item">Объектов культурного наследия ЮНЕСКО&nbsp;<span class="intro__list-item-value">16</span></p>
             </li>
             <li>
-              <p class="intro__list-item">Природных заповедников&nbsp;105</p>
+              <p class="intro__list-item">Природных заповедников&nbsp;<span class="intro__list-item-value">105</span></p>
             </li>
             <li>
-              <p class="intro__list-item">Аэропортов&nbsp;241</p>
+              <p class="intro__list-item">Аэропортов&nbsp;<span class="intro__list-item-value">241</span></p>
             </li>
           </ul>
         </section>

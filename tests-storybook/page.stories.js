@@ -22,11 +22,11 @@ const Template = () => {
           <h1 class="lead__title">Путешествия по&nbsp;России</h1>
           <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
 
-          <img class="lead__image" src="./images/lead-image-320.jpg" alt="карта с маршрутом" srcset="
-          ./images/lead-image-320.jpg 320w, 
-          ./images/lead-image-768.jpg 768w,
-          ./images/lead-image-928.jpg 928w,
-          ./images/lead-image-984.jpg 984w"
+          <img class="lead__image" src="./images/lead/lead-image-320.jpg" alt="карта с маршрутом" srcset="
+          ./images/lead/lead-image-320.jpg 320w, 
+          ./images/lead/lead-image-768.jpg 768w,
+          ./images/lead/lead-image-928.jpg 928w,
+          ./images/lead/lead-image-984.jpg 984w"
             sizes="(max-width: 1280px) 100vw, (min-width: 1280px) calc(1280px - 148px * 2)">
           <p class="lead__caption">ваша полка — верхняя</p>
         </section>
@@ -51,21 +51,19 @@ const Template = () => {
           </p>
           <ul class="intro__list">
             <li>
-              <p class="intro__list-item">
-                Часовых поясов&nbsp;<span class="intro__list-item-value">11</span>
-              </p>
+              <p class="intro__list-item">Часовых поясов&nbsp;<span class="intro__list-item-value">11</span></p>
             </li>
             <li>
-              <p class="intro__list-item">Объектов природного наследия ЮНЕСКО&nbsp;12</p>
+              <p class="intro__list-item">Объектов природного наследия ЮНЕСКО&nbsp;<span class="intro__list-item-value">12</span></p>
             </li>
             <li>
-              <p class="intro__list-item">Объектов культурного наследия ЮНЕСКО&nbsp;16</p>
+              <p class="intro__list-item">Объектов культурного наследия ЮНЕСКО&nbsp;<span class="intro__list-item-value">16</span></p>
             </li>
             <li>
-              <p class="intro__list-item">Природных заповедников&nbsp;105</p>
+              <p class="intro__list-item">Природных заповедников&nbsp;<span class="intro__list-item-value">105</span></p>
             </li>
             <li>
-              <p class="intro__list-item">Аэропортов&nbsp;241</p>
+              <p class="intro__list-item">Аэропортов&nbsp;<span class="intro__list-item-value">241</span></p>
             </li>
           </ul>
         </section>
@@ -270,20 +268,20 @@ const Template = () => {
       <footer class="page__footer footer">
         <nav>
           <ul class="footer__links">
-            <li class="footer__link">
-              <a class="link" href="https://yandex.ru/maps">Карты</a>
+            <li class="footer__links-item">
+              <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
             </li>
-            <li class="footer__link">
-              <a class="link" href="https://yandex.ru/pogoda">Погода</a>
+            <li class="footer__links-item">
+              <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
             </li>
-            <li class="footer__link">
-              <a class="link" href="https://rasp.yandex.ru">Расписание</a>
+            <li class="footer__links-item">
+              <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
             </li>
-            <li class="footer__link">
-              <a class="link" href="https://calendar.yandex.ru">Календарь</a>
+            <li class="footer__links-item">
+              <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
             </li>
-            <li class="footer__link">
-              <a class="link" href="https://travel.yandex.ru">Путешествия</a>
+            <li class="footer__links-item">
+              <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
             </li>
           </ul>
         </nav>
