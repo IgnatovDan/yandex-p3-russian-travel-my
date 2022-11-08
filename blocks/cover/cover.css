@@ -6,6 +6,9 @@
 }
 
 .cover {
+  --cover_image_path: url(../../images/cover/cover__background_320.jpg);
+  --background-opacity: rgba(42, 44, 47, 0.3);
+
   color: inherit;
   text-decoration: none;
 
@@ -16,9 +19,7 @@
   align-items: center;
   justify-content: center;
 
-  --background-opacity: rgba(42, 44, 47, 0.3);
-  /* TODO: add images for different page width */
-  background-image: linear-gradient(var(--background-opacity), var(--background-opacity)), url(../../images/cover__background.jpg);
+  background-image: linear-gradient(var(--background-opacity), var(--background-opacity)), var(--cover_image_path);
   background-position: center;
   background-size: cover;
 
@@ -27,6 +28,24 @@
 
 .cover:hover {
   --background-opacity: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (min-width: 768px) {
+  .cover {
+    background-image: linear-gradient(var(--background-opacity), var(--background-opacity)), url(../../images/cover/cover__background_768.jpg);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    background-image: linear-gradient(var(--background-opacity), var(--background-opacity)), url(../../images/cover/cover__background_1024.jpg);
+  }
+}
+
+@media screen and (min-width: 1184px) {
+  .cover {
+    background-image: linear-gradient(var(--background-opacity), var(--background-opacity)), url(../../images/cover/cover__background_1184.jpg);
+  }
 }
 
 /* -----------------------------------
@@ -76,7 +95,7 @@
 
 
 /* -----------------------------------
-- v4: before + absolute for background-image
+- v4: before + absolute for background-image (or add before + absolute with img + absolute + srcset + sizes + z-index + alt)
 
 https://stackoverflow.com/a/66235776/5917765
 https://stackoverflow.com/questions/6542212/use-css3-transitions-with-gradient-backgrounds
