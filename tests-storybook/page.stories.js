@@ -22,15 +22,12 @@ const Template = () => {
           <h1 class="lead__title">Путешествия по&nbsp;России</h1>
           <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
 
-          <!-- TODO: calc(100vw - 148px * 2) - calc(1280px - 148px * 2) -->
           <img class="lead__image" src="./images/lead-image-320.jpg" alt="карта с маршрутом" srcset="
           ./images/lead-image-320.jpg 320w, 
           ./images/lead-image-768.jpg 768w,
           ./images/lead-image-928.jpg 928w,
           ./images/lead-image-984.jpg 984w"
-            sizes="(max-width: 1024px) 100vw, (max-width: 1280px) calc(100vw - 48px * 2), (min-width: 1280px) calc(100vw - 148px * 2)">
-          <!-- TODO: sync position for 1024/1280 -->
-          <!-- TODO: sync font for 768 -->
+            sizes="(max-width: 1280px) 100vw, (min-width: 1280px) calc(1280px - 148px * 2)">
           <p class="lead__caption">ваша полка — верхняя</p>
         </section>
 
@@ -118,11 +115,9 @@ const Template = () => {
           <ul class="places">
             <li>
               <article class="place">
-                <!-- TODO: set max-width for text elements and show ellipsis if text is too large (things like captions/links/...) -->
                 <h2 class="place__title">Куршская коса</h2>
                 <div class="place__website">
                   <p class="place__website-heading">URL</p>
-                  <!-- TODO: change to <a> -->
                   <a class="place__website-link" href="park-kosa.ru">park-kosa.ru</a>
                 </div>
 
