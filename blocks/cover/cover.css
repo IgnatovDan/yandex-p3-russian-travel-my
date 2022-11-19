@@ -105,3 +105,25 @@ https://stackoverflow.com/questions/6542212/use-css3-transitions-with-gradient-b
 /* -----------------------------------
 - v5: (background-image + opacity for <a>) and (absolute + second <a> for texts)
 */
+
+/* -----------------------------------
+- v6: "background-image on parent" + "background: rgba(42, 44, 47, 0.2); on child"
+
+<section class="cover">
+  <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank">
+
+.cover {
+    background-image: url(../../images/cover-trains.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+}
+.cover__link {
+    box-sizing: border-box;
+    transition: .2s ease-out;
+    background: rgba(42, 44, 47, 0.2);
+}
+*/
