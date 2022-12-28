@@ -127,3 +127,29 @@ https://stackoverflow.com/questions/6542212/use-css3-transitions-with-gradient-b
     background: rgba(42, 44, 47, 0.2);
 }
 */
+
+/* -----------------------------------
+- v7: цвет фона страницы совпадает с цветом слоя затемнения и можно задавать прозрачность для изображения (YP, Ивлев Григорий, PCR-602626)
+
+.cover__link::after { 
+  content: ""; 
+  position: absolute; 
+  z-index: -1; 
+  top: 0; 
+  bottom: 0; 
+  left: 0; 
+  right: 0; 
+
+  opacity: 0.7; 
+  background-image: url("../../../images/cover/cover-trains.jpg"); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+
+  transition: opacity 0.4s ease; 
+} 
+
+.cover__link:hover::after { 
+  opacity: 0.3; 
+} 
+
+*/
